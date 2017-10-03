@@ -2,6 +2,96 @@
 
 @section('content')
 <!-- Page Heading/Breadcrumbs -->
+<div class="row my-4">
+    <div class="col-lg-4">
+        <img class="img-fluid rounded" src="{{ asset('images/lotte-cinema.jpg') }}" alt="">
+    </div>
+    <!-- /.col-lg-8 -->
+    <div class="col-lg-8">
+        <section class="text-center">
+            <div class="container">
+                <h1 class="text-danger">Tặng vé xem  phim miễn phí</h1>
+                <p class="lead">Người được thích nhiều nhất trong tuần sẽ được gửi tặng một cặp vé xem phim ở rạp Lotte</p>
+                <p class="lead">Thời gian diễn ra sự kiện: 1/10/2017 - 15/10/2017</p>
+                <p>
+                    <a href="#" class="btn btn-success">Tham gia ngay</a>
+                </p>
+            </div>
+        </section>
+    </div>
+    <!-- /.col-md-4 -->
+</div>
+<div class="card">
+    <div class="col-md-12">
+        <p></p>
+        <div class="row">
+            <!-- Select Basic -->
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select class="custom-select form-control">
+                        <option selected>Giới tính</option>
+                        <option value="1">Nam</option>
+                        <option value="2">Nữ</option>
+                        <option value="3">Khác</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Select Basic -->
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select class="custom-select form-control">
+                        <option selected>Hôn nhân</option>
+                        <option value="1">Độc Thân</option>
+                        <option value="2">Đã có gia đình</option>
+                        <option value="3">Ly dị</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Text input-->
+            <!-- Select Basic -->
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select class="custom-select form-control">
+                        <option selected>Mục tiêu</option>
+                        <option value="1">Tìm người yêu</option>
+                        <option value="2">Tìm bạn bè mới</option>
+                        <option value="3">Tìm người tâm sự</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Select Basic -->
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select class="custom-select form-control">
+                        <option selected>Khu vực</option>
+                        <option value="1">Miền bắc</option>
+                        <option value="2">Miền trung</option>
+                        <option value="3">Miền nam</option>
+                    </select>
+                </div>
+            </div>
+            <!-- Select Basic -->
+            <div class="col-md-2">
+                <div class="form-group">
+                    <select class="custom-select form-control">
+                        <option selected>Tuổi</option>
+                        <option value="1">Miền bắc</option>
+                        <option value="2">Miền trung</option>
+                        <option value="3">Miền nam</option>
+                    </select>
+                </div>
+            </div>
+
+            <!-- Button -->
+            <div class="col-md-2">
+                <div class="form-group">
+                    <button id="singlebutton" name="singlebutton" class="btn btn-success float-right">Tìm kiếm</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <p class="d-md-none"></p>
+</div>
 <p></p>
 <div class="row">
     <div class="col-md-9">

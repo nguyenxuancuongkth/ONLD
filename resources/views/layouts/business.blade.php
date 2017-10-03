@@ -8,7 +8,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Modern Business - Start Bootstrap Template</title>
+    <title>Bạn Muốn Hẹn Hò</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -22,7 +22,7 @@
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark fixed-top">
-        <a class="navbar-brand" href="index.html">Bạn Muốn Hẹn Hò</a>
+        <a class="navbar-brand text-uppercase" href="index.html">Bạn Muốn Hẹn Hò</a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -30,10 +30,10 @@
           <ul class="navbar-nav ml-auto">
             @if (Auth::guest())
             <li class="nav-item active">
-                <a class="nav-link" href="#">Đăng nhập</a>
+                <a class="nav-link text-capitalize" href="#">Đăng nhập</a>
             </li>
             <li class="nav-item active">
-                <a class="nav-link" href="#">Đăng ký</a>
+                <a class="nav-link text-capitalize" href="#">Tạo Tài Khoản Mới</a>
             </li>
             @else
             <li class="nav-item dropdown active">
