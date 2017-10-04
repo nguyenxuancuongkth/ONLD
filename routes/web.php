@@ -22,8 +22,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 // ---------------------------------------------------------
 Route::get('/', function () {
-    return view('login');
-});
+    return view('index');
+})->name('index');
 
 
 
@@ -35,5 +35,8 @@ Route::prefix('user')->group(function () {
 	Route::post('/authenticate', 'LoginController@authenticate')->name('user.authenticate');
 	Route::post('/register', 'RegisterController@register')->name('user.post.register');
 });
+
+
+
 
 

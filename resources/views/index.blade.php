@@ -227,3 +227,13 @@
 <!-- /.row -->
 <!-- /.row -->
 @endsection
+@push('styles')
+    <!-- Font Awesome -->
+    {{-- <link rel="stylesheet" href="{{ asset('lte/font-awesome/css/font-awesome.min.css') }}"> --}}
+    <style>
+
+    </style>
+@endpush
+@push('scripts')
+    {{--<script src="/example.js"></script>--}}
+@endpush

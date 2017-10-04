@@ -109,7 +109,7 @@ class LoginController extends Controller
             ->withInput();
         }       
         if (Auth::attempt(['email' => $email, 'password' => $password])) 
-            return redirect()->route('home');
+            return redirect()->route('index');
             return redirect('user/login')->with('status', 'Email hoặc mật khẩu không chính xác!');
         } 
     /**

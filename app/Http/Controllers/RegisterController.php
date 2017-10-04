@@ -121,6 +121,6 @@ class RegisterController extends Controller
             'password' => bcrypt($input['password'])
         ]);
         Auth::loginUsingId($user->id);
-        return redirect()->route('home');
+        return redirect()->route('index');
     }     
 }
